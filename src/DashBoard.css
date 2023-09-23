@@ -1,0 +1,142 @@
+.col-md-9 { /* Set your desired background color */
+    padding: 20px; /* Add padding for spacing */
+  }
+  .nav-link{
+    color: black
+  }
+  /* Style the active tab link */
+  .nav-link.active {
+    background-color: #FAF6F7; /* Set the background color for the active tab */
+    color: #df4142; /* Set the text color for the active tab */
+  }
+  .logout-link{
+    margin-top: 10px;
+  }
+  /* Add hover effect for tab links (optional) */
+  .nav-link:hover {
+    background-color: white; /* Set the background color on hover */
+    color: #333; /* Set the text color on hover */
+  }
+  
+  .main_welcome {
+    background-color: #df4142;
+    overflow: hidden;
+    position: relative; 
+  }
+  .user-image {
+    max-width: 40px; /* Set the maximum width you desire */
+    max-height: 40px; /* Set the maximum height you desire */
+  }
+  .navbar {
+    background-color:#df4142;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins';
+  }
+  .menu-icon.open .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .menu-icon.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .menu-icon.open .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .logo_home {
+    font-size: 55px;
+    margin-left: 7%;
+    font-weight: 600;
+    font-family: 'Poppins';
+    animation: none;
+    box-shadow: none;
+    border-radius: 0%;
+    background-color: transparent;
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    color: #df4142;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    font-family: 'Poppins';
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin-right: 50px;
+    font-family: 'Poppins';
+    color:white;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ddd;
+  }
+  .login_class{
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 7px 20px;
+  }
+  @media (max-width: 767px) {
+    .logo {
+      font-size: 45px;
+      margin-left: 6%;
+      color: #df4142; /* Set the text color to green */
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+    .nav-links a{
+      color: #df4142;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position:static;
+      top: 100px; /* Adjust the top position based on your design */
+      right: 0;
+      background-color: white;
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .nav-links.open {
+      /* Adjust the margin-top to create space for the open menu */
+      display: flex; /* Set to a value that provides enough space for the open menu */
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+      color: #df4142; /* Set the text color to green */
+    }
+  }

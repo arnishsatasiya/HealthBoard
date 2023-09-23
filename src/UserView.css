@@ -1,0 +1,76 @@
+.user_view_page {
+    /* Your styles here */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    padding: 20px;
+  }
+  
+  
+  .category-title {
+    margin-left: 100px;
+    font-size: 20px; /* Increase the font size for category titles */
+    margin-top: 50px;
+    margin-bottom: 40px;
+     /* Add some space above category titles */
+  }
+  .list{
+    list-style: none;
+    padding: 0;
+    margin-left: 100px;
+  }
+  .list p {
+    margin-left: 100px;
+  }
+  .list li {
+    display: flex; /* Use flexbox for centering */
+    align-items: center;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  border: 3px solid #ddd; /* Add a border to each list item */
+  padding: 10px;
+  background-color: #f9f9f9;
+  max-width: 300px;  /* Add a background color to each list item */
+}
+
+.list a {
+  text-decoration: none;
+  color: #df4142;
+}
+
+.list a:hover {
+  text-decoration: underline;
+}
+  .customer-item {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .category-title {
+      margin-left: 10px;
+      font-size: 20px; /* Increase the font size for category titles */
+      margin-top: 50px;
+      margin-bottom: 40px;
+       /* Add some space above category titles */
+    }
+    .list{
+      list-style: none;
+      padding: 0;
+      margin-left: 10px;
+    }
+    .list p {
+      margin-left: 50px;
+    }
+    .list li {
+      display: flex; /* Use flexbox for centering */
+      align-items: center;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    border: 3px solid #ddd; /* Add a border to each list item */
+    padding: 10px;
+    background-color: #f9f9f9;
+    max-width: 200px;  /* Add a background color to each list item */
+  }
+  }

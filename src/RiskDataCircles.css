@@ -1,0 +1,64 @@
+/* Container for the circle row */
+.circle-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between circles */
+  }
+  .view-details-link {
+    color: #df4142; /* Or any other color you prefer */
+  }
+  /* Container for each circle and its customer list */
+  .circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  /* Style for the circle */
+  .circle-container > div {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the customer list */
+  .customer-list {
+    display: none;
+  }
+  
+  /* Show the customer list when the circle is clicked */
+  .circle-container:hover .customer-list {
+    display: block;
+    background-color: #f9f9f9; /* Customize the background color */
+    padding: 10px;
+    border: 1px solid #ddd; /* Add a border around the list */
+    border-radius: 5px; /* Round the corners of the list */
+    position: absolute;
+    z-index: 1;
+    width: max-content; /* Adjust the width as needed */
+    margin-top: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    text-align: center;
+  }
+  
+  /* Style for the list items */
+  .customer-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Display list items in a row */
+    flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .customer-list ul li {
+    margin: 5px; /* Adjust the spacing between items */
+    font-size: 14px; /* Customize the font size */
+    white-space: nowrap; /* Prevent wrapping of long text */
+    padding: 5px 10px; /* Add some padding to each item */
+    border: 1px solid #ddd; /* Add a border to each item */
+    border-radius: 3px; /* Round the corners of each item */
+    background-color: #f2f2f2; /* Customize the background color of each item */
+  }
+  

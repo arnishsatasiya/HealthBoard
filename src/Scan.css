@@ -1,0 +1,81 @@
+.scan .date-picker-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Shift container to the right */
+    align-items: center; /* Center elements vertically */
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+.scan .date-picker-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .scan .date-picker {
+    flex: 1;
+    margin: 0 10px; /* Optional: Add margin between the date pickers */
+    display: flex;
+    flex-direction: column;  /* Optional: Add margin between the date pickers */
+  }
+  
+.chart{
+    margin-top: 100px;
+}
+.scan .date-picker label {
+  margin-bottom: 4px; /* Add some space between label and DatePicker */
+}
+  
+  /* Style the date picker input */
+  .scan .date-picker input {
+    width: 200px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style the button */
+  .scan button {
+    padding: 10px 20px; /* Adjust padding as needed for a good UI */
+    background-color: #df4142; /* Change to your preferred button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 22px;
+  }
+  
+  /* Add hover and focus effects for the button (optional) */
+  .scan button:hover,
+  .scan button:focus {
+    background-color: #df4142; /* Change to a slightly darker shade for hover/focus effect */
+  }
+
+@media (max-width: 768px) {
+    .scan{
+        margin-top: 30px;
+    }
+    .scan .date-picker-container {
+      flex-direction: column; /* Change to a column layout */
+      align-items: center; /* Align items to the left */
+    }
+    
+    .scan .date-picker-row {
+      flex-direction: column; /* Change to a column layout */
+    }
+    
+    .scan .date-picker {
+      margin: 10px 0; /* Adjust margin as needed */
+    }
+    .scan .chart{
+        margin-top: 50px;
+    }
+    .scan .date-picker input {
+        width: 300px; /* Adjust the width as needed */
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+      }
+  }

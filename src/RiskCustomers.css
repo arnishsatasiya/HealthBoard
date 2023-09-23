@@ -1,0 +1,78 @@
+.category-buttons {
+    display: flex;
+    gap: 30px; /* Adjust the gap as needed to create space between buttons */
+  }
+  .date-picker_select{
+    margin-left: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .date-picker-conatiner{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .date-picker {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+   /* Add margin between date picker and progress container */
+  }
+  .date-picker-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .date-picker label {
+    margin: 0; /* Add some space between label and DatePicker */
+  }
+  .risk-customers button {
+    padding: 10px 20px; /* Adjust padding as needed for a good UI */
+    background-color: #df4142; /* Change to your preferred button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 22px;
+  }
+
+  @media (max-width: 767px) {
+    .progress-container {
+      flex-direction: column;
+    }
+  .date-picker_select{
+    margin-left: 0px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .circle-progress-bar-container {
+    margin: 10px auto;
+  }
+  .circle-row {
+    align-items: center;
+    justify-content: center;
+  }
+  .risk-customers{
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .category-buttons {
+  flex-direction: column; /* Display buttons vertically */
+  align-items: center;
+   } /* Center buttons horizontally */
+}

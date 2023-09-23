@@ -1,0 +1,70 @@
+.login-page{
+  overflow: hidden;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+}
+.main-class {
+  display: flex;
+  font-family: 'Poppins';
+  background-color: white;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh;
+ /* Full viewport height */
+}
+
+.login-container {
+  font-family: 'Poppins';
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+
+h2 {
+  font-family: 'Poppins';
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left; /* Left-align form elements */
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  text-align: left; /* Left-align labels */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #df4142;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make the button full width */
+}
+
+button[type="submit"]:hover {
+  background-color: #df4142;
+}

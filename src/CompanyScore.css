@@ -1,0 +1,149 @@
+.date-picker_company_select {
+  margin-bottom: 20px;
+  margin-left: 700px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ /* Add margin between date picker and progress container */
+}
+.date-picker_select{
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.date-picker-row {
+  display: flex;
+  justify-content: space-between;
+}
+.date-picker-conatiner{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.date-picker_company label {
+  margin: 0; /* Add some space between label and DatePicker */
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .circle-flip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .circle-flip-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .circle-flip.flipped .circle-flip-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .circle-flip-front,
+  .circle-flip-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    color: #fff;
+  }
+  
+  .circle-flip-front {
+    background-color: #3aa241;
+  }
+  
+  .circle-flip-back {
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    transform: rotateY(180deg);
+  }
+  
+  
+  
+  .circle-progress-bar-container {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .circle-progress-bar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 8px solid #e6e6e6;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .circle-progress-bar-fill {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #007bff; /* Blue color for the progress */
+    clip: rect(0, 50px, 100px, 0);
+    position: absolute;
+  }
+  
+  .progress-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .progress-value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    .progress-container {
+      flex-direction: column;
+    }
+    .date-picker_company_select {
+      margin-bottom: 20px;
+      margin-left: 20px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     /* Add margin between date picker and progress container */
+    }
+  
+    .circle-progress-bar-container {
+      margin: 10px auto;
+    }
+  }
