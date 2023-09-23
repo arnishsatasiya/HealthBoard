@@ -34,14 +34,14 @@
 Here are some snapshots of the HealthBoard interface:
 
 ### Daily visitors
-![Daily visitors](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/scans.png)
+![Daily visitors](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/scans1.png)
 
 
 
 ### Company's overall health status
-![Health](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/company%20health.png)
+![Health](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/company%20health1.png)
 
 
 
 ### Risk
-![Risk](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/risk.png)
+![Risk](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/risk1.png)
