@@ -32,3 +32,16 @@
 ## Visuals
 
 Here are some snapshots of the HealthBoard interface:
+
+### Daily visitors
+![Daily visitors](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/scans.png)
+
+
+
+### Company's overall health status
+![Health](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/company%20health.png)
+
+
+
+### Risk
+![Risk](https://raw.githubusercontent.com/arnishsatasiya/HealthBoard/main/Visuals/risk.png)
